@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ServiceOps Toolkit – Organize your service business</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <!-- Use relative paths so the site works both locally (file://) and when deployed -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header & Navigation -->
+  <header class="navbar">
+    <div class="container nav-inner">
+      <div class="logo">
+        <img src="assets/logo.svg" alt="ServiceOps Toolkit logo" width="40" height="40">
+        <span class="brand-name">ServiceOps&nbsp;Toolkit</span>
+      </div>
+      <nav class="nav-links">
+        <a href="pricing.html">Pricing</a>
+        <a href="blog/index.html">Blog</a>
+        <a href="faq.html">FAQ</a>
+        <a href="#newsletter">Newsletter</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero section -->
+  <section class="hero">
+    <div class="container hero-inner">
+      <h1>Run your service business like a pro</h1>
+      <p>Stop struggling with spreadsheets and sticky notes. ServiceOps Toolkit bundles proven templates, calculators and automation scripts so you can quote faster, schedule jobs, track clients and get paid – all without expensive software.</p>
+      <div class="cta-buttons">
+        <a href="pricing.html" class="btn btn-primary">Get Started</a>
+        <a href="#newsletter" class="btn btn-secondary">Join the Waitlist</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features section -->
+  <section class="features">
+    <div class="container">
+      <h2>Everything you need to operate</h2>
+      <div class="feature-grid">
+        <div class="feature-item">
+          <h3>Organize & Track</h3>
+          <p>Centralize jobs, clients, tasks and materials in one place with our Notion database. Stay on top of schedules and never miss a deadline.</p>
+        </div>
+        <div class="feature-item">
+          <h3>Instant Estimates</h3>
+          <p>Use our Google Sheets estimator and PDF generator to create professional proposals in minutes. Impress prospects and win more jobs.</p>
+        </div>
+        <div class="feature-item">
+          <h3>Cash Flow Insights</h3>
+          <p>Monitor revenue, costs and profit with built‑in dashboards. Know when to reinvest and when to adjust pricing.</p>
+        </div>
+        <div class="feature-item">
+          <h3>Done‑for‑you Templates</h3>
+          <p>From intake forms to marketing campaigns, plug in our ready‑made documents and workflows to automate repetitive tasks.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing preview section -->
+  <section class="pricing-preview">
+    <div class="container">
+      <h2>Flexible pricing for every stage</h2>
+      <div class="pricing-cards">
+        <div class="card">
+          <h3>Starter</h3>
+          <p class="price">$29 <span>/ one‑time</span></p>
+          <p>Core templates &amp; checklist pack. Great for side‑hustle contractors.</p>
+          <a href="pricing.html" class="btn btn-secondary">See Details</a>
+        </div>
+        <div class="card popular">
+          <h3>Pro</h3>
+          <p class="price">$49 <span>/ one‑time</span></p>
+          <p>Everything in Starter plus advanced estimator &amp; CRM board.</p>
+          <a href="pricing.html" class="btn btn-primary">Most Popular</a>
+        </div>
+        <div class="card">
+          <h3>Agency</h3>
+          <p class="price">$99 <span>/ one‑time</span></p>
+          <p>Full suite with multi‑project dashboards, automations &amp; support.</p>
+          <a href="pricing.html" class="btn btn-secondary">See Details</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials / social proof placeholder -->
+  <section class="testimonials">
+    <div class="container">
+      <h2>What early customers say</h2>
+      <div class="testimonial-grid">
+        <div class="testimonial-item">
+          <p>“I was paying $49/month for a tool that did half of this. The Toolkit paid for itself in one job.”</p>
+          <span>— Alex, Handyman</span>
+        </div>
+        <div class="testimonial-item">
+          <p>“The estimator generator saves me hours every week. My quotes look polished and professional.”</p>
+          <span>— Maria, Landscaping</span>
+        </div>
+        <div class="testimonial-item">
+          <p>“Love the organized Notion dashboard – I finally know where every job stands at a glance.”</p>
+          <span>— Chris, Home Renovation</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Blog highlight section -->
+  <section class="blog-highlight">
+    <div class="container">
+      <h2>From the Blog</h2>
+      <div class="blog-preview-grid">
+        <!-- Latest three posts; update this list when adding posts -->
+        <a href="blog/post1.html" class="blog-preview">
+          <h3>10 Tools Every Home Service Business Needs</h3>
+          <p>Discover the must‑have apps and resources to streamline your operations and wow customers.</p>
+        </a>
+        <a href="blog/post2.html" class="blog-preview">
+          <h3>Pricing Your Services: Strategies That Work</h3>
+          <p>Learn how to set profitable rates while staying competitive in your local market.</p>
+        </a>
+        <a href="blog/post3.html" class="blog-preview">
+          <h3>How to Build a Repeat Customer Machine</h3>
+          <p>Simple retention tactics to turn one‑off jobs into lifetime clients.</p>
+        </a>
+      </div>
+      <a href="blog/index.html" class="btn btn-secondary more-posts">Visit Blog</a>
+    </div>
+  </section>
+
+  <!-- Newsletter / waitlist form -->
+  <section id="newsletter" class="newsletter">
+    <div class="container">
+      <h2>Join the launch list</h2>
+      <p>Be the first to know when we launch new templates, features, and offers. We respect your inbox.</p>
+      <form id="waitlist-form" action="" method="POST">
+        <input type="email" name="email" placeholder="Your email address" required>
+        <button type="submit" class="btn btn-primary">Notify Me</button>
+      </form>
+      <p class="privacy-note">By submitting this form, you agree to receive occasional emails. You can unsubscribe at any time.</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-left">
+        <img src="assets/logo.svg" alt="ServiceOps Toolkit logo" width="32" height="32">
+        <span class="brand-name">ServiceOps Toolkit</span>
+      </div>
+      <div class="footer-links">
+        <a href="privacy.html">Privacy</a>
+        <a href="terms.html">Terms</a>
+        <a href="mailto:support@example.com">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+<script src="script.js"></script>
+</body>
+</html>
